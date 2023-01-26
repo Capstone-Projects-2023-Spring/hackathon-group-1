@@ -33,6 +33,18 @@ The program is run on one python file, and the output is the user's terminal
 ## Background
 The program starts by setting up an HTTPS connection with the specified website. Then, it sets up the payload and headers for the GET request. After that it creates the GET request to the API endpoint "/api/syllabus/1". It then gets the response from the API, reads the data from the response, decodes the JSON data, and finally stores it in a variable. After it finsihes this process, it then gets the list of events from the data and initializes an empty list to store the event dates & names. The python file finally ends with a for loop that goes through each event in the list of events, gets today's date and if today's date is less than the assignment's due date, print that it is upcoming, if it is not this, the termianl prints that it is completed.
 
+```mermaid
+sequenceDiagram
+actor User
+autonumber
+    User ->> IDE: Send Request For Schedule
+    IDE ->> Course Website: Connect to the Website
+    Course Website ->> API: Get "/api/syllabus/1"
+    API ->> Course Website: Return event_dates, event_names
+    Course Website ->> IDE: Return event_dates, event_names
+    IDE ->> User: Return Dates for Assignments
+```
+
 ## Required Resources
 
 IDE, Python
