@@ -1,7 +1,7 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=9890122)
 <div align="center">
 
-# Project Name
+# Get Assignment Dates
 [![Report Issue on Jira](https://img.shields.io/badge/Report%20Issues-Jira-0052CC?style=flat&logo=jira-software)](https://temple-cis-projects-in-cs.atlassian.net/jira/software/c/projects/DT/issues)
 [![Deploy Docs](https://github.com/ApplebaumIan/tu-cis-4398-docs-template/actions/workflows/deploy.yml/badge.svg)](https://github.com/ApplebaumIan/tu-cis-4398-docs-template/actions/workflows/deploy.yml)
 [![Documentation Website Link](https://img.shields.io/badge/-Documentation%20Website-brightgreen)](https://applebaumian.github.io/tu-cis-4398-docs-template/)
@@ -12,7 +12,7 @@
 
 ## Keywords
 
-Section 704, Group 1, python, dates, syllabus
+Section 704, Group 1, Python, dates, syllabus
 
 ## Project Abstract
 
@@ -35,7 +35,7 @@ The program starts by setting up an HTTPS connection with the specified website.
 
 ## Required Resources
 
-IDE, python
+IDE, Python
 
 ## Collaborators
 
