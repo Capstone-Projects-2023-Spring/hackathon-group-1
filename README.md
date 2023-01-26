@@ -12,47 +12,31 @@
 
 ## Keywords
 
-Section #, as well as any words that quickly give your peers insights into the application like programming language, development platform, type of application, etc.
+Section 704, Group 1, python, dates, syllabus
 
 ## Project Abstract
 
-This document proposes a novel application of a text message (SMS or Email) read-out and hands-free call interacted between an Android Smartphone and an infotainment platform (headunit) in a car environment. When a phone receives an SMS or Email, the text message is transferred from the phone to the headunit through a Bluetooth connection. On the headunit, user can control which and when the received SMS or E-mail to be read out through the in-vehicle audio system. The user may press one button on the headunit to activate the hands-free feature to call back the SMS sender.
+Our group created a python file that prints out the dates of assignments that are completed and upcoming. The idea was to create a simple project within the time constraint. It also was easy to run and straight to the point. Everyone in the group thought it would be easier to have a list of assignments instead of a complicated project.
 
 ## High Level Requirement
 
 Describe the requirements – i.e., what the product does and how it does it from a user point of view – at a high level.
+When the user puts ```python dates.py``` into the terminal, the following picture of what the terminal would look like is pictured below
+
+![{95F6536D-0BD5-44F0-B1A0-42EA54CB9457}](https://user-images.githubusercontent.com/58699300/214953218-33252bea-22b9-4788-9660-8ca89657b817.png)
+
 
 ## Conceptual Design
 
-Describe the initial design concept: Hardware/software architecture, programming language, operating system, etc.
+The program is run on one python file, and the output is the user's terminal 
 
 ## Background
-
-The background will contain a more detailed description of the product and a comparison to existing similar projects/products. A literature search should be conducted and the results listed. Proper citation of sources is required. If there are similar open-source products, you should state whether existing source will be used and to what extent. If there are similar closed-source/proprietary products, you should state how the proposed product will be similar and different.
+The program starts by setting up an HTTPS connection with the specified website. Then, it sets up the payload and headers for the GET request. After that it creates the GET request to the API endpoint "/api/syllabus/1". It then gets the response from the API, reads the data from the response, decodes the JSON data, and finally stores it in a variable. After it finsihes this process, it then gets the list of events from the data and initializes an empty list to store the event dates & names. The python file finally ends with a for loop that goes through each event in the list of events, gets today's date and if today's date is less than the assignment's due date, print that it is upcoming, if it is not this, the termianl prints that it is completed.
 
 ## Required Resources
 
-Discuss what you need to develop this project. This includes background information you will need to acquire, hardware resources, and software resources. If these are not part of the standard Computer Science Department lab resources, these must be identified early and discussed with the instructor.
+IDE, python
 
 ## Collaborators
 
-[//]: # ( readme: collaborators -start )
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/ApplebaumIan">
-            <img src="https://avatars.githubusercontent.com/u/9451941?v=4" width="100;" alt="ApplebaumIan"/>
-            <br />
-            <sub><b>Ian Tyler Applebaum</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/leighflagg">
-            <img src="https://avatars.githubusercontent.com/u/77810293?v=4" width="100;" alt="leighflagg"/>
-            <br />
-            <sub><b>Null</b></sub>
-        </a>
-    </td></tr>
-</table>
-
-[//]: # ( readme: collaborators -end )
+Tyler Weiss, Kat Tejada, Aaron Thomas, Ben Baldino, Steven Altemose
